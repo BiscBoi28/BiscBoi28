@@ -14,9 +14,9 @@ pipeline yourself.
 | Project | What it is | Interactive demo |
 |---|---|---|
 | [**CoWrite**](https://github.com/BiscBoi28/CoWrite-file-system) | Distributed collaborative document store in C: sentence-level locking, capability tickets, primary/backup replication with automatic failover | [crash the primary](https://biscboi28.github.io/projects/cowrite.html) |
-| [**SHAM**](https://github.com/BiscBoi28/Reliable-UDP) | TCP-style reliable transport built from scratch on raw UDP: handshake, sliding window, cumulative ACKs, RTO retransmission | [drop a packet](https://biscboi28.github.io/projects/sham.html) |
+| [**SHAM**](https://github.com/BiscBoi28/SHAM-Reliable-UDP) | TCP-style reliable transport built from scratch on raw UDP: handshake, sliding window, cumulative ACKs, RTO retransmission | [drop a packet](https://biscboi28.github.io/projects/sham.html) |
 | [**XV6 Enhancements**](https://github.com/BiscBoi28/XV6-Enhancements) | Demand paging with FIFO swap plus four pluggable CPU schedulers (FCFS/RR/CFS/MLFQ) in the xv6-riscv kernel | [trigger a page fault](https://biscboi28.github.io/projects/xv6.html) |
-| **Orbit-Node** *(private, client project)* | Human-in-the-loop security orchestration: Neo4j asset graph, Wazuh SIEM, and a Gemini agent over MCP. The AI proposes, an analyst approves, the SIEM executes | [walk the pipeline](https://biscboi28.github.io/projects/orbit-node.html) |
-| **On-device face verification** *(employer codebase)* | Fully offline face-verification gate on low-end Android: ML Kit → ArcFace alignment → MobileFaceNet fp16 TFLite → multi-template matching. In production with 1000+ users | [see how it works](https://biscboi28.github.io/projects/face-verification.html) |
+| [**Orbit-Node**](https://github.com/BiscBoi28/Orbit-Node) *(client project)* | Human-in-the-loop security orchestration: Neo4j asset graph, Wazuh SIEM, and a Gemini agent over MCP. The AI proposes, an analyst approves, the SIEM executes | [walk the pipeline](https://biscboi28.github.io/projects/orbit-node.html) |
+| **On-device face verification** *(employer codebase)* | Fully offline face-verification gate on low-end Android: ML Kit → ArcFace alignment → MobileFaceNet fp16 TFLite → multi-template matching. In production with 650+ users | [see how it works](https://biscboi28.github.io/projects/face-verification.html) |
 
 Also: CTF problem setter at Hacking Club IIIT-H · 2nd place (Open), Deccan CTF.
